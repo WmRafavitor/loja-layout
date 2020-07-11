@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	font-family: 'Prompt', sans-serif;
+	padding: 0;
+}
+header {
+	color: #fff;
+	background: #f06e61;
+	display: flex;
+	justify-content: space-between;
+	padding: 5px;
+}
+.texto-destaque{
+	font-weight: bold;
+}
+.icone {
+	height: 20px;
+	margin: 0 5px;
+}
+ul.sem-marcador{
+	list-style: none;
+	font-size: 12px;
+	display: inline;
+}
+ul.sem-marcador li a{
+	color: #fff;
+	text-decoration: none;
+	margin-right: 15px;
+}
+ul.sem-marcador li{
+	display: inline;
+}
+.painel-direito{
+	display:flex;
+	align-content: center;
+}
+.text-search{
+	background-image: url(../img/lupa.png);
+	/*background: url(../img/lupa.png) no-repeat left top;*/
+	background-size: 18px;
+	background-repeat: no-repeat;
+	background-position: 3px 1px;
+	padding-left: 25px;
+	border: 0;
+	border-radius: 3px;
+	width: 70px;
+	margin-right: 5px;
+}
+/* conteudo */
+
+body{
+	background: #ececec;
+}
+main h6{
+	text-align: center;
+	font-weight: normal;
+}
+.lista-produtos{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.card-produto{
+	margin: 10px;
+	height: 420px;
+	width: 200px;
+	background: #fff;
+	padding: 5px 10px;
+}
+.off{
+	background: #ed6e5d;
+	color: #fff;
+	float: right;
+}
+.img-cel{
+		height:260px;
+		width: 215px;
+	}
+.img-cel img{
+	height: 240px;
+	width: 210px;
+	}
+.apple{
+	color: #8b7b8b;
+	font-size: 18px;
+}
+.descricao{
+	height: 55px;
+	text-align: left;
+	font-size: 13px;
+	font-weight: bold;
+}
+.precos{
+	height: 25px;
+	display: table;
+}
+.preco-subl{
+	text-decoration: line-through;
+	font-size: 11px;
+	width: 80px;
+	display: table-cell;
+}
+.preco-promo{
+	font-weight: bold;
+	color: #ed6e5d;
+	letter-spacing: -1px;
+	margin-left: 20px;
+
+}
+.card-produto input{
+	background: #7cb089;
+	color: #fff;
+	font-size: 12px;
+	border: 1px solid #708b77;
+	height: 35px;
+	width: 100px;
+	display: block;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
