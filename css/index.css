@@ -119,3 +119,34 @@ main h6{
 	margin-left: auto;
 	margin-right: auto;
 }
+main .butcarregar{
+	display: flex;
+	justify-content: center;
+}
+.butcarregar input{
+	background: #40809b;
+	color: #fff;
+	font-size: 15px;
+	border: 0;
+	height: 40px;
+	width: 150px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+footer .foot{
+	background: #64886c;
+	color: #fff;
+	border: 2px solid #45604b;
+	font-size: 20px;
+	margin-top: 10px;
+	padding-top: 15px;
+	height: 60px;
+	text-align: center;
+}
+.foot p{
+	text-align: center;
+	font-weight: normal;
+	font-size: 12px;
+}
